@@ -1,5 +1,4 @@
 import yfinance as yf
-#import pandas as pd
 
 def fetch(ticker_symbol , periods , path):
     ticker = yf.Ticker(ticker_symbol)
